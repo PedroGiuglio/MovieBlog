@@ -1,0 +1,122 @@
+@media (max-width: 576px) {
+    .navbar{
+        height: 10vh;
+        background-color: rgb(20,24,28);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .sectionNav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+    
+    .navbar a{
+        color: rgb(145,162,178);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size:15px;
+        cursor: pointer;
+    }
+    
+    .navbar a:hover {
+        color: white;
+        font-weight: bold;
+    
+    }
+    
+    .sectionAddMovie{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar button{
+        border-radius: 0px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(113, 113, 113);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+.navbar{
+    height: 10vh;
+    background-color: rgb(20,24,28);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sectionNav{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.navbar a{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.sectionAddMovie{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button{
+    border-radius: 0px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(113, 113, 113);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+}

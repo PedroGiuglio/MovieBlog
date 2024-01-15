@@ -1,0 +1,98 @@
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+            <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+          </svg> Add New Movie</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="closeClick()"></button>
+        </div>
+        <div class="modal-body" >
+          <div class="modal-body">
+            <div class="form aver" style="font-weight: bold;">
+              <label>Title:</label>
+              <input type="text" placeholder="Ingresar título"  [(ngModel)]="titulo">
+              <label>Description:</label>
+              <input type="text" placeholder="Ingrese breve descripción" [(ngModel)]="descripcion">
+              <label>Autor:</label>
+              <input type="text" placeholder="Ingrese autor" [(ngModel)]="autor">
+              <label>Film genre:</label>
+              <input type="text" placeholder="Ingrese género" [(ngModel)]="genero">
+              <label>URL Poster:</label>
+              <input type="text" placeholder="Ingrese url del poster" [(ngModel)]="urlImg">
+              <button class="btn btn-secondary" (click)="enviarData()">Add new movie</button>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="main-section">
+  
+  <div id="video-container">
+    <div class="section-main">
+      <h1>Track films you’ve watched. <br>
+        Save those you want to see. <br>
+        Tell your friends what’s good.  
+      </h1>
+      <button>get started - it's free</button>
+      <h5>The social network for cinema lovers</h5>
+    </div>
+      <div class="section-cuadros">
+        <ng-container *ngFor="let libro of listLibros; let i = index">
+          <img  *ngIf="i < elementosAMostrar" [src]="libro.urlImg">
+        </ng-container>
+      </div>
+  </div>
+  </div>
+  
+  <!-- style="width: 140px; height: 200px; margin-right: 10px; -->
+
+  <div class="title-reviews">
+    <h3>Write and share reviews. Compile your own lists. Share your life in film</h3>
+    <div class="sectionMore">
+      <!-- style="display: flex; flex-direction: column; width: 70%;" -->
+      <section class="section-linea">
+      <h5>popular reviews this week</h5>
+      <div>
+        <button (click)="cargarMasElementos()">+ More</button>
+        <button (click)="cargarMenosElementos()" *ngIf="showLess">- Less</button>
+      </div>
+    </section>
+    <div class="lineas">
+      <div class="linea"></div>
+      <div class="linea2"></div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="home">
+    <div  class="card-section">    
+      <div class="cardMovie" *ngFor="let libro of listLibros; let i = index">
+        <ng-container *ngIf="i < elementosAMostrar">
+          <div class="card-img">
+            <img [src]="libro.urlImg ? libro.urlImg : urlImageDefault" alt="Imagen del libro">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">"{{libro.titulo}}"</h5>
+            <li class="list-group-item"><span>Director:</span> {{libro.autor}}</li>
+            <p class="card-text">{{libro.descripcion}}</p>
+            <li class="list-group-item"><span>Genero:</span> {{libro.genero}}</li>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="news-section" >
+      <h5>News</h5>
+      <div class="linea"></div>
+      <div class="news-body" *ngFor="let articulo of listNews" (click)="redirectToNews(articulo.ID.toString())">
+        <img src="{{articulo.ImagenPortada}}" alt="" style="height: 120px; width: 120px;">
+        <h6>{{articulo.Titulo}}</h6>
+        <p>{{articulo.Autor}}</p>
+      </div>
+    </div>
+  </div>

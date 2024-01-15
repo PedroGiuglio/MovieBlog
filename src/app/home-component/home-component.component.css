@@ -1,0 +1,755 @@
+@media (max-width: 576px) {
+  .main-section{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+}
+
+.navbar a{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar button{
+    border-radius: 20px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#video-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #video-container h1{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    font-family: 'Rufina', serif;
+  }
+
+
+.section-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80%;
+}
+
+.section-main button{
+color: white;
+text-transform: uppercase;
+background-color: rgb(0,192,48);
+border: none;
+height: 40px;
+width:250px;
+text-align: center;
+}
+
+
+.section-cuadros{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.section-cuadros img{
+  border:0.5px solid white;
+  width: 40%;
+  height: 200px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.section-cuadros img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+
+  #video-container h5{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  
+#video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el comportamiento de escala del video */
+  }
+
+  .title-reviews{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(44,52,64);
+    text-align: center;
+    color: rgb(145,162,178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-reviews h3{
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif
+  }
+
+  .title-reviews button{
+    background-color: transparent;
+    border: none;
+    color: rgb(145,162,178);
+  }
+
+  .sectionMore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .section-linea{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+
+  }
+
+  .section-linea h5{
+    font-size: 20px;
+  }
+
+.lineas{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+  .linea{
+    height: 1px;
+    background-color: rgb(145,162,178);
+    width: 50%;
+  }
+
+  .linea2{
+    height: 1px;
+    width: 50%;
+    background-color: rgb(145,162,178);
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(44,52,64);
+  }
+  
+ .card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 90%;
+    height: auto;
+}
+
+.cardMovie{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 30px;
+    color: rgb(145,162,178);
+}
+
+
+.card-img img{
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 10px;
+    border: 0.5px solid white;
+}
+
+.card-img img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+
+
+.card-title{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Rufina', serif;
+}
+
+.card-body li span{
+  font-weight: bold;
+}
+
+.news-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  height: 70vh;
+}
+
+.news-section img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+
+.news-section h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(145,162,178);
+}
+
+.news-section h6{
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.news-section p{
+  color: rgb(145,162,178);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.news-body{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+
+#exampleModal{
+  background-image: url('/assets/images/cine.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.modal-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modal-header{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-header .modal-title{
+  font-size: 21px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.modal-header .modal-title svg{
+  margin-right: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%; /* Ajusta según tus necesidades */
+    height: 50vh;
+    padding: 20px; /* Añadido para un espacio interno */
+    box-sizing: border-box; 
+}
+
+  
+  input {
+    width: 100%; /* O ajusta según tus necesidades */
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border: none;
+    height: 35px;
+  }
+  
+  .form button {
+    margin-top: 20px; /* Ajusta según tus necesidades */
+  }
+
+  .aver{
+    width: 80%;
+  }
+
+  .form label{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    ;
+  }
+
+  .modal-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-img img{
+    width: 250px;
+    height: 300px;
+  }
+
+  .btn-secondary{
+    border-radius: 0px;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pruebaHome{
+    width: 80%;
+    height: 400px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+  }
+}
+
+
+@media only screen and (min-width: 1200px){
+.main-section{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/assets/images/cine.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar{
+    height: 10vh;
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+}
+
+.navbar a{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar button{
+    border-radius: 20px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#video-container {
+    width: 70%;
+    height: 120vh;
+    overflow: hidden;
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #video-container h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    font-family: 'Rufina', serif;
+  }
+
+
+.section-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.section-main button{
+color: white;
+text-transform: uppercase;
+background-color: rgb(0,192,48);
+border: none;
+height: 40px;
+width:250px;
+text-align: center;
+}
+
+.section-cuadros img{
+  border:1px solid white;
+  width: 140px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.section-cuadros img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+
+  #video-container h5{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  
+#video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el comportamiento de escala del video */
+  }
+
+  .title-reviews{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(44,52,64);
+    text-align: center;
+    color: rgb(145,162,178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-reviews h3{
+    text-align: left;
+    font-family: 'Be Vietnam Pro', sans-serif
+  }
+
+  .title-reviews button{
+    background-color: transparent;
+    border: none;
+    color: rgb(145,162,178);
+  }
+
+  .section-linea{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+  }
+
+  .section-linea h5{
+    text-transform: uppercase;
+  }
+
+  .section-linea p{
+    text-transform: uppercase;
+ }
+
+.lineas{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+  .linea{
+    height: 1px;
+    background-color: rgb(145,162,178);
+    width: 60%;
+  }
+
+  .linea2{
+    height: 1px;
+    background-color: rgb(145,162,178);
+    width: 30%;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(44,52,64);
+  }
+  
+ .card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 50%;
+    height: auto;
+}
+
+.cardMovie{
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    color: rgb(145,162,178);
+}
+
+
+.card-img{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: initial;
+}
+
+.card-img img{
+  width: 80px;
+  height: 120px;
+  border: 0.5px solid white;
+}
+
+.card-img img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+.card-body{
+    width: 80%; 
+}
+
+.card-title{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Rufina', serif;
+}
+
+.card-body li span{
+  font-weight: bold;
+}
+
+.news-section{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-section img:hover{
+  border:1px solid rgb(75, 255, 47);
+}
+
+.news-section h6{
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.news-section p{
+  color: rgb(145,162,178);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.news-body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+
+#exampleModal{
+  background-image: url('/assets/images/cine.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.modal-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.modal-header{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-header .modal-title{
+  font-size: 21px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.modal-header .modal-title svg{
+  margin-right: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%; /* Ajusta según tus necesidades */
+    height: 50vh;
+    padding: 20px; /* Añadido para un espacio interno */
+    box-sizing: border-box; 
+}
+
+  
+  input {
+    width: 100%; /* O ajusta según tus necesidades */
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border: none;
+    height: 35px;
+  }
+  
+  .form button {
+    margin-top: 20px; /* Ajusta según tus necesidades */
+  }
+
+  .aver{
+    width: 80%;
+  }
+
+  .form label{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    ;
+  }
+
+  .modal-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-img img{
+    width: 250px;
+    height: 300px;
+  }
+
+  .btn-secondary{
+    border-radius: 0px;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pruebaHome{
+    width: 80%;
+    height: 400px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,320 @@
+@media (max-width: 576px) {
+
+    .navbar{
+        height: 10vh;
+        background-color: transparent;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .navbar a{
+        color: rgb(145,162,178);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size:15px;
+        cursor: pointer;
+    }
+    
+    .navbar a:hover {
+        color: white;
+        font-weight: bold;
+    
+    }
+    
+    .navbar button{
+        border-radius: 20px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    .main-section{
+        /* background-color: rgb(20,24,29); */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .main-section .home{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .home .sectionArticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        white-space: pre-line;
+        word-wrap: break-word;
+        overflow: hidden; /* o ajusta según tus necesidades, como overflow: auto; */
+    }
+    
+    .imgPortada{
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    h1{
+        color: white;
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    
+    h5{
+        color: rgb(145,162,178);
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    
+    h5 span{
+        font-weight: bold;
+    }
+    
+    h6{
+        color: rgb(145,162,178);
+        text-align: left;
+        font-size: 10px;
+    }
+    
+    p{
+        color: rgb(145,162,178);
+        font-size: 18px;
+        width: 100%;
+    }
+    
+}
+
+
+.main-section{
+    background-color: rgb(20,24,29);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+}
+
+.navbar a{
+    color: rgb(145,162,178);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar button{
+    border-radius: 20px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgPortada{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+h5{
+    color: rgb(145,162,178);
+    text-align: left;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+h5 span{
+    font-weight: bold;
+}
+
+h6{
+    color: rgb(145,162,178);
+    text-align: left;
+    font-size: 10px;
+}
+
+p{
+    color: rgb(145,162,178);
+    text-align: left;
+    font-size: 18px;
+}
+
+.homePortadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44,52,64);
+    height: 40vh;
+}
+
+.portadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: -250px;
+}
+
+.posterIndividual{
+    width: 150px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.posterIndividual:hover{
+    border:3px solid rgb(75, 255, 47);
+}
+
+
+#exampleModal{
+    background-image: url('/assets/images/cine.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .modal-body{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  
+  .modal-header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .modal-header .modal-title{
+    font-size: 21px;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .modal-header .modal-title svg{
+    margin-right: 5px;
+  }
+  
+  .form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      width: 50%; /* Ajusta según tus necesidades */
+      height: 50vh;
+      padding: 20px; /* Añadido para un espacio interno */
+      box-sizing: border-box; 
+  }
+  
+    
+    input {
+      width: 100%; /* O ajusta según tus necesidades */
+      margin-bottom: 10px;
+      background-color: aliceblue;
+      border: none;
+      height: 35px;
+    }
+    
+    .form button {
+      margin-top: 20px; /* Ajusta según tus necesidades */
+    }
+  
+    .aver{
+      width: 80%;
+    }
+  
+    .form label{
+      font-size: 18px;
+      font-family: 'Work Sans', sans-serif;
+      ;
+    }
+  
+    .modal-img{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .modal-img img{
+      width: 250px;
+      height: 300px;
+    }
+  
+    .btn-light{
+      border-radius: 0px;
+      width: 180px;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 10px;
+      color: rgb(113, 113, 113);
+      font-family: 'Work Sans', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
